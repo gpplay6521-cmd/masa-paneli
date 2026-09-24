@@ -1,0 +1,37 @@
+# Geliştirme günlüğü ve kişisel/yerel dosyalar (yayınlanmıyor)
+CROWPANEL_CONTEXT.md
+.claude/
+.vscode/
+
+# ESP-IDF derleme çıktıları ve bağımlılık önbelleği
+panel-firmware/build/
+panel-firmware/managed_components/
+panel-firmware/flash_log.txt
+panel-firmware/build_log.txt
+panel-firmware/sdkconfig.old
+
+# Kimlik/imzalama malzemesi (özel anahtar içerir) ve MSIX çıktısı
+pc-helper/identity/
+
+# Çalışma zamanı önbellekleri ve kişisel/telifli içerik
+pc-helper/kapak_son/
+pc-helper/shots/
+pc-helper/firmware/
+pc-helper/panel_ayarlari.json
+pc-helper/__pycache__/
+pc-helper/**/__pycache__/
+pc-helper/.venv/
+
+# font-tools bağımlılıkları/derleme çıktıları
+font-tools/.venv/
+font-tools/node_modules/
+font-tools/build/
+
+# Paketleme/yayın çıktıları (kaynaktan yeniden üretilir: yayinla.ps1)
+/MasaPaneli-Kurulum.cmd
+/MasaPaneli-Yardimci.zip
+firmware-backup/
+
+# Genel
+*.pyc
+Thumbs.db

@@ -1,0 +1,17 @@
+esptool==5.3.1
+nvidia-ml-py==13.610.43
+pillow==12.3.0
+psutil==7.2.2
+pyserial==3.5
+typing_extensions==4.16.0
+websockets==17.1
+winrt-runtime==3.2.1
+winrt-Windows.ApplicationModel==3.2.1
+winrt-Windows.Data.Xml.Dom==3.2.1
+winrt-Windows.Foundation.Collections==3.2.1
+winrt-Windows.Foundation==3.2.1
+winrt-Windows.Media.Control==3.2.1
+winrt-Windows.Media==3.2.1
+winrt-Windows.Storage.Streams==3.2.1
+winrt-Windows.UI.Notifications==3.2.1
+winrt-Windows.UI.Notifications.Management==3.2.1

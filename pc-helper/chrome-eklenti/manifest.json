@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Masa Paneli - YouTube Music Köprüsü",
+  "version": "1.0",
+  "description": "Masa panelindeki Beğen/Karıştır/Tekrarla düğmelerini YouTube Music sayfasına iletir.",
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": ["https://music.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": ["alarms", "tabs"],
+  "host_permissions": ["https://music.youtube.com/*"]
+}
