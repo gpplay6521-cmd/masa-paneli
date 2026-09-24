@@ -1,7 +1,7 @@
 # Masa Paneli — CrowPanel YouTube Music Desk Panel
 
 A dedicated desk-side display for controlling YouTube Music (and glancing at your PC's vitals) while
-gaming, built on an [Elecrow CrowPanel Advance 4.3" HMI](https://www.elecrow.com/) and a small Windows
+gaming, built on an [Elecrow CrowPanel Advance 4.3" HMI](https://github.com/Elecrow-RD/CrowPanel-Advance-4.3-HMI-ESP32-S3-AI-Powered-IPS-Touch-Screen-800x480) and a small Windows
 helper that bridges the panel to the PC over USB serial.
 
 ![Theme screen](docs/screenshot-tema.png)
